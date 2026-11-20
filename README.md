@@ -28,7 +28,7 @@ Workflow for reference:
 
 * For part e. you are letting Make know to recognize the email that is sent to your inbox after you certify for benefits.  For this, you may need to change parts like "Payment Approved", and "NJ Unemployment Insurance Claim".  If you need help, ask any ai service on how to format this formula. Tell the ai what your email subject looks like.* 
 
-If - Then Modula: 
+## If - Then Modula: 
 1. In the workspace, click the "+" connector of the Gmail Modula
 2. Select the *IF-ELSE* Module
 3. For the top most module which satsifies the IF condition, then click on Send Email, and write an alert email that lets you know that there is no need to certifiy. 
