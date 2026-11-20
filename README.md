@@ -10,10 +10,15 @@ Gmail Module:
 2. Connect your Gmail
 3. Click on "Make an Api Call" out of all the options avaliable.
    Make sure all the following features are selected
+   
   a. Method = GET
+  
   b. Key (Header 1) : Content Type
+  
   c. Value (Header 1): application/json
+  
   d. Key: q
+  
   e. value: subject:"[Payment Approved: {{formatDate(addDays(setDay(now; "sunday"); -7); "MMMM D"; "America/New_York")}}-{{if(formatDate(addDays(setDay(now; "sunday"); -7); "MMMM"; "America/New_York") = formatDate(addDays(setDay(now; "saturday"); -7); "MMMM"; "America/New_York"); formatDate(addDays(setDay(now; "saturday"); -7); "D"; "America/New_York"); formatDate(addDays(setDay(now; "saturday"); -7); "MMMM D"; "America/New_York"))}}] NJ Unemployment Insurance Weekly Claim"
 
 * For part e. you are letting Make know to recognize the email that is sent to your inbox after you certify for benefits.  For this, you may need to change parts like "Payment Approved", and "NJ Unemployment Insurance Claim".  If you need help, ask any ai service on how to format this formula. Tell the ai what your email subject looks like.* 
