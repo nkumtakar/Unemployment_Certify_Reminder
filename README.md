@@ -9,7 +9,7 @@ Workflow for reference:
 <img width="802" height="617" alt="image" src="https://github.com/user-attachments/assets/5e6a9f71-be89-4b12-a7ab-0dda943249d1" />
 
 
-Gmail Module: 
+# Gmail Module: 
 
 1. Right click on the workspace interface and click "Add Module"
 2. Connect your Gmail
